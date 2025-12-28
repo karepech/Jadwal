@@ -1,19 +1,15 @@
-name: Auto Sync IPTV EPG (Block Utuh)
+name: Auto Sync IPTV EPG
 
 on:
-  # Jalan tiap 30 menit
   schedule:
     - cron: "*/30 * * * *"
 
-  # Jalan kalau file berubah
   push:
     paths:
       - "sync_epg_block.py"
       - "live_epg_sports.m3u"
-      - "epg_wib_sports.xml"
       - ".github/workflows/**"
 
-  # Bisa dijalankan manual
   workflow_dispatch:
 
 jobs:
@@ -21,27 +17,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Run EPG Sync (BLOCK UTUH)
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install gdown
+
+      - name: Run sync
         run: python sync_epg_block.py
 
-      - name: Commit & Push if changed
+      - name: Commit result
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
           git add playlist_final_epg.m3u
-
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Auto sync EPG (block utuh)"
+            git commit -m "Auto sync EPG (Google Drive, block utuh)"
             git push
           fi
