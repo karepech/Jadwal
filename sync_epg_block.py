@@ -1,38 +1,40 @@
-import requests
 import re
+import gdown
 
 PLAYLIST_IN = "live_epg_sports.m3u"
-EPG_URL = "https://raw.githubusercontent.com/karepech/Epgku/main/epg_wib_sports.xml"
+EPG_FILE = "epg_wib_sports.xml"
 OUT_FILE = "playlist_final_epg.m3u"
+
+# FILE ID GOOGLE DRIVE (FIX)
+GDRIVE_ID = "1N1gsbY4VBcNfdXd1TxlFXwG-3e3NHCFQ"
 
 def normalize(txt):
     return re.sub(r'[^a-z0-9]', '', txt.lower())
 
-print("Load EPG (streaming, 30MB safe)...")
+print("Download EPG dari Google Drive...")
+gdown.download(f"https://drive.google.com/uc?id={GDRIVE_ID}", EPG_FILE, quiet=False)
 
+print("Scan EPG (SAFE MODE)...")
 epg_map = {}
 current_id = None
 
-r = requests.get(EPG_URL, stream=True, timeout=60)
-r.raise_for_status()
+with open(EPG_FILE, encoding="utf-8", errors="ignore") as f:
+    for line in f:
+        line = line.strip()
 
-for raw in r.iter_lines(decode_unicode=True):
-    if not raw:
-        continue
-    line = raw.strip()
+        if line.startswith("<channel"):
+            m = re.search(r'id="([^"]+)"', line)
+            if m:
+                current_id = m.group(1)
 
-    if line.startswith("<channel"):
-        m = re.search(r'id="([^"]+)"', line)
-        if m:
-            current_id = m.group(1)
-
-    elif "<display-name>" in line and current_id:
-        name = re.sub(r"<.*?>", "", line)
-        epg_map[normalize(name)] = current_id
-        current_id = None
+        elif "<display-name>" in line and current_id:
+            name = re.sub(r"<.*?>", "", line)
+            epg_map[normalize(name)] = current_id
+            current_id = None
 
 print("EPG channel loaded:", len(epg_map))
 
+print("Process playlist (BLOK UTUH)...")
 with open(PLAYLIST_IN, encoding="utf-8", errors="ignore") as f:
     lines = f.read().splitlines()
 
@@ -53,16 +55,9 @@ while i < len(lines):
         for epg_name, epg_id in epg_map.items():
             if epg_name in name or name in epg_name:
                 if 'tvg-id="' in extinf:
-                    block[0] = re.sub(
-                        r'tvg-id="[^"]+"',
-                        f'tvg-id="{epg_id}"',
-                        extinf
-                    )
+                    block[0] = re.sub(r'tvg-id="[^"]+"', f'tvg-id="{epg_id}"', extinf)
                 else:
-                    block[0] = extinf.replace(
-                        "#EXTINF:-1",
-                        f'#EXTINF:-1 tvg-id="{epg_id}"'
-                    )
+                    block[0] = extinf.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-id="{epg_id}"')
                 break
 
         out.extend(block)
@@ -72,4 +67,4 @@ while i < len(lines):
 with open(OUT_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(out))
 
-print("DONE → playlist_final_epg.m3u")
+print("DONE → playlist_final_epg.m3u (EPG Google Drive, BLOK UTUH)")
