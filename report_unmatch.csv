@@ -21,30 +21,17 @@ SEA GAMES 11,internal_9d9bbe48
 SEA GAMES 12,internal_ed8c280d
 SEA GAMES 13,internal_ad42bb24
 SEA GAMES 14,internal_5de8ea76
-SPOTV V+,internal_0c131bf2
-SPOTV 2 V+,internal_81a6c986
-SPOTV PH,internal_4b53b8c7
-SPOTV 2 PH,internal_4f05a1cc
-SPOTV HD FM,internal_5ef7b841
-SPOTV2 HD FM,internal_1e753d8d
 INDOSIAR FHD,internal_f181fc46
 INDOSIAR SPORTS 1,internal_71e38ea2
 INDOSIAR SPORTS 2,internal_49e2d81b
 VOLI SPORT,internal_36a2c539
 VOLI TV,internal_bf4590f6
-LIGA BRI UP,internal_f9c950ff
 SPORT.TV 1,internal_57b7ab18
 SPORT.TV 2,internal_ed8db3f5
 DAIHATSU JAPAN B,internal_fe8c4a88
 RCTI SPORTS,internal_de688b2f
 RCTI SPORTS,internal_de688b2f
 FIFA+ AU,internal_dc358302
-BEIN SPORT 1 HD,internal_55de1f6c
-BEIN SPORT 2 HD,internal_e2d5eedb
-BEIN SPORT 3 HD,internal_cc89c3a5
-BEIN SPORT XTRA,internal_d04a3a5a
-SKY SPORTS LIVE 5 HD,internal_7c775c89
-SKY SPORTS LIVE 6 HD,internal_f75045d8
 SEA V LEAGUE ONE SPORT,internal_4b0e8e6e
 SEA V LEAGUE ONE SPORT+,internal_b4d5c868
 SEA V LEAGUE GMM,internal_261b8654
@@ -72,17 +59,7 @@ TIMNAS DAY,internal_d2fa624c
 TIMNAS DAY BC 1,internal_b11c6eab
 TIMNAS DAY BC 2,internal_cac2dcc1
 TIMNAS DAY BC 3,internal_5fd0f494
-LIGA BRI EVENT 2,internal_65ce071e
-LIGA BRI EVENT 3,internal_544b5de2
-LIGA BRI EVENT 1,internal_e1d15568
-LIGA BRI EVENT 2,internal_65ce071e
-LIGA BRI EVENT 4,internal_9c971064
-LIGA BRI EVENT 5,internal_1f33764d
 19:40 ECZACIBASI W VS GALATASARAY W,internal_31bbbf10
-LIGA 1 BRI-15:30 PERSITA VS AREMA FC,internal_4a895071
-LIGA 1 BRI-19:00 PERSEBAYA VS MADURA UNITED,internal_8fadf421
-PRO LIGA-16:00 JAKARTA POPSIVO POLWAN VS JAKARTA ELECTRIC PLN,internal_45fa780d
-PRO LIGA-19:00 JAKARTA LAVANI LIVIN TRANSMEDIA VS SURABAYA SAMATOR,internal_9361098b
 SPORTSTARS 2 HD,internal_9aaa92f9
 MOJI IP,internal_b8a801c9
 MOJI WI,internal_94c5d679
@@ -94,9 +71,6 @@ DAZN HD,internal_0cb5105d
 DAZN 1 EVENT,internal_99d26349
 DAZN F1 HD,internal_ba2a6938
 ABU DHABI SPORT 1 TV,internal_26b43c78
-BEIN SPORTS 5 HD,internal_30851d39
-PRO LIGA  1,internal_46db14ec
-LIGA EVENT,internal_9d57c3db
 AFC EVENT,internal_8c96fb32
 INDONESIA VS KORUT SD,internal_3d740f95
 TRT SPOR,internal_222212a4
@@ -160,37 +134,19 @@ ABU DHABI SPORTS 2,internal_8a8bfc75
 FIFA+ AU,internal_dc358302
 ONE SPORTS,internal_c0be3e53
 ONE SPORTS+,internal_1d323264
-TNT SPORTS 1,internal_519e5f38
-TNT SPORTS 2,internal_1b7fce1c
-TNT SPORTS 3,internal_7d53d307
-TNT SPORTS 4,internal_4f81c4ba
 TSN 1,internal_40beacf0
 TSN 2,internal_bc42f627
 TSN 3,internal_418e4380
 TSN 4,internal_217ba763
 TSN 5,internal_feca97a9
-SKY SPORTS LALIGA,internal_ebad0a17
-SKY SPORTS BUNDESLIGA,internal_b2e072cb
-SKY SPORTS,internal_a758d414
-SKY SPORTS 2,internal_765da840
-SKY LIVE 1,internal_b044db28
-SKY LIVE 2,internal_4dd3601b
-SKY LIVE 3,internal_70fe6a9c
-SKY LIVE 4,internal_bfb5521d
-SKY LIVE 5,internal_8414a761
-SKY LIVE 6,internal_3db767c5
-SKY LIVE 7,internal_fa2ae80b
 ASTRO ARENA,internal_7654a51a
 ASTRO ARENA 2,internal_91228c3b
-ASTRO FOOTBALL,internal_dd31624f
 ASTRO GRANDSTAND,internal_ddb30ef3
 ASTRO CRICKET,internal_7c8a4a8a
 ASTRO BADMINTON,internal_5dae856e
 ASTRO BADMINTON 2,internal_146108a3
 ASTRO ARENA BOLA,internal_14b9330e
 ASTRO ARENA BOLA 2,internal_2c94fd84
-ASTRO PREMIER LEAGUE,internal_803885a0
-ASTRO PREMIER LEAGUE 2,internal_c21447af
 UNIFI SPORTS,internal_257f537d
 FIGHT SPORTS,internal_fbf2b99c
 TRUE GOLF CHANNEL,internal_a604b7b9
@@ -211,7 +167,6 @@ CAZE TV 1,internal_b387484c
 CAZE TV 2,internal_ba5ec393
 CAZE TV 3,internal_f8d1ffb5
 CAZE TV 4,internal_817fe32e
-PREMIER SPORTS,internal_8ca0f5f0
 STAR SPORTS 1 HD,internal_ae1d2fd0
 STAR SPORTS 2 HD,internal_05da74a8
 STAR SPORTS SELECT 1 HD,internal_c2b786f8
@@ -230,25 +185,12 @@ FANCODE TV 1,internal_65a8642c
 FANCODE TV 2,internal_9bac7566
 FIGHT NETWORK,internal_560d598f
 WWE NETWORK,internal_d229403c
-SPOTV,internal_240b4c58
-SPOTV 2,internal_8baad6f5
-SPOTV V,internal_ad09d5e5
-SPOTV 2 V,internal_29f87bd8
-SOCCER CHANNEL,internal_31ad239f
 SPORTSTARS 1 HD,internal_894d0384
 SPORTSTARS 2 BC,internal_a234d52d
 SPORTSTARS 2 HD,internal_9aaa92f9
 SPORTSTARS 3 HD,internal_34aa6072
 SPORTSTARS 4 HD,internal_338abcfd
 VOLI TV,internal_bf4590f6
-beIN Sports 1,internal_e818aeae
-BEIN SPORTS ID 2,internal_d3e53c18
-BEIN SPORTS ID 3,internal_ae5acd1e
-BEIN SPORTS ID 1 BC,internal_d16808fa
-BEIN SPORTS ID 2 BC,internal_049dc990
-BEIN SPORTS ID 3 BC,internal_95816468
-BEIN SPORTS ID 4,internal_a0349424
-BEIN SPORTS ID 5,internal_e91b2536
 CTV 1,internal_5123c322
 CTV 2,internal_6ac5276b
 CTV 3,internal_38d33faa
@@ -260,14 +202,6 @@ CTV 3 A,internal_9da83482
 CTV 5 A,internal_2a4e061a
 CTV 6 A,internal_0a7351f7
 MAXSPORT 4 HD,internal_f79d70d0
-LIGA BRI ID,internal_c842e74d
-LIGA BRI N,internal_1414e698
-LIGA BRI N 1,internal_4863d985
-LIGA BRI [EVENT],internal_f785903a
-LIGA BRI [EVENT] N,internal_0fb4406b
-LIGA BRI [EVENT] 1,internal_aac7117f
-LIGA BRI [EVENT] 2,internal_fa0cce13
-LIGA BRI [EVENT] 3,internal_12b5e269
 "group-title=""SPORTS"",ZIGGO SPORT 1 FHD",internal_50112332
 "group-title=""SPORTS"",ZIGGO SPORT 2 FHD",internal_c1a4a8e2
 "group-title=""SPORTS"",ZIGGO SPORT 3 FHD",internal_af814b21
@@ -312,8 +246,6 @@ PRIMA SPORTS 3,internal_0d1fcd00
 PRIMA SPORTS 4,internal_e0a40773
 PEACOCK TV,internal_f6cc8ad0
 PEACOCK TV T,internal_8ef8eb3e
-PREMIER LEAGUE TV,internal_701e6660
-PREMIER LEAGUE TV,internal_701e6660
 DAZN 1 IP,internal_f38a6b49
 DAZN 2 IP,internal_727fdb7d
 DAZN 3 IP,internal_12446e18
@@ -331,12 +263,10 @@ DAZN 2 ES,internal_de699d92
 DAZN 3 ES,internal_06d3fd14
 DAZN 4 ES,internal_8e84b216
 DAZN F1,internal_2fcc226b
-DAZN LALIGA,internal_4c768f50
 DAZN COMBAT,internal_538d0ac9
 DAZN FAST+,internal_3ec887a2
 DAZN 1 DE,internal_63c116ae
 DAZN HELDINNEN,internal_e75c7a8c
-DAZN WOMEN'S FOOTBALL,internal_15714099
 DAZN RINGSIDE,internal_e947f879
 DIGI SPORT 1,internal_2651567b
 DIGI SPORT 2,internal_6802b89d
@@ -355,9 +285,6 @@ GO3 SPORT EXTRA 7,internal_ed2e9217
 GO3 SPORT EXTRA 14,internal_52191bb7
 VIAPLAY SPORT PREMIUM 0TT,internal_aab050be
 VIAPLAY SPORT OTT,internal_aefc49b8
-VIAPLAY SPORT FOOTBALL OTT,internal_09604e04
-ASTRO PREMIER LEAGUE,internal_803885a0
-ASTRO PREMIER LEAGUE 2,internal_c21447af
 DUBAI SPORTS 1,internal_62d8d9fa
 DUBAI SPORTS 2,internal_283d43ff
 DUBAI SPORTS 3,internal_3d81a69d
@@ -375,46 +302,8 @@ SONY TEN 2 HD,internal_301c6e0b
 SONY TEN 3 HD,internal_e5bb23f0
 SONY TEN 4 HD,internal_cd3a8802
 SONY TEN 5 HD,internal_b12f6432
-EPL 1 HUB PREMIER 1,internal_738cdca3
-EPL 2 HUB PREMIER 2,internal_8a1a26b0
-EPL 3 P SPORTS,internal_74de6c82
-EPL 4 FUBO 1,internal_c2e94ec6
-EPL 5 FUBO 2,internal_44aff974
-EPL 6 USA,internal_aa507cfb
-EPL 7 NBC,internal_4a25b127
-EPL 8 PEACOCK,internal_53260e90
-EPL 9 HUB PREMIER 3,internal_cb69860a
-EPL 10 DAZN IP,internal_650e762d
-EPL 11 PRIMERE,internal_76bb0b2f
-EPL 12 CMP 5,internal_220ebd77
-EPL 12 TELEMUNDO,internal_f48cf174
-EPL 5 TNT 1,internal_e8b711c3
-EPL 7 TRUE,internal_17377d39
-EPL 1 DAZN,internal_c175301f
-EPL 2 DAZN,internal_5242724b
-LALIGA 1 BEIN 3,internal_40af25a8
-LALIGA 2 SKY 21,internal_f0591146
-LALIGA 3 CANALE 5,internal_465e6497
-LALIGA 4 SKY 16,internal_c16cb072
-LIGA PRANCIS 1,internal_0d98ed76
-BUNDESLIGA 1 SOCCER,internal_396d1ae1
-BUNDESLIGA 2 SKY 24,internal_3f530f5a
-SERIE A 1 PLUTO,internal_8286c8ed
-SERIE A 2 SPORT 1,internal_13efdf80
-SERIE A 3 SPORT 2,internal_0dcf0062
-CHAMPIONS 1 BEIN 1,internal_959a2c1f
-CHAMPIONS 2 BEIN 3,internal_3131aae4
-CHAMPIONS 3 BEIN 4,internal_add312b7
-CHAMPIONS 4 BEIN 5,internal_aee2feec
-CHAMPIONS 5 TNT 1,internal_69e48a83
-CHAMPIONS 6 TNT 3,internal_b31f6e58
-CHAMPIONS 7 TNT 4,internal_241efaaa
 INDOSIAR|BSL⁽ˢᵉʳᵛᵉʳ ³⁾,internal_54b98f4a
 INDOSIAR|BSL⁽ᴺᵉʷ⁻ˢᵉʳᵛᵉʳ ᶠᴴᴰ⁾,internal_0a5efcf7
-LIGA SUPER MALAYSIA⁽ˢᵉʳᵛᵉʳ ¹⁾,internal_db031068
-LIGA 1 THAILAND⁽ˢᵉʳᵛᵉʳ ¹⁾,internal_1485a96e
-LIGA 1 THAILAND⁽ˢᵉʳᵛᵉʳ ²⁾,internal_27e9061e
-UCL EVENT,internal_d17f1da3
 WORLD CUP U17 2025⁽ˢᵉʳᵛᵉʳ ¹⁾,internal_ee2a29e7
 AFC LEAGUE TWO⁽ˢᵉʳᵛᵉʳ ¹⁾,internal_0cb2c058
 AFC LEAGUE TWO⁽ˢᵉʳᵛᵉʳ ²⁾,internal_eed7f877
@@ -423,29 +312,22 @@ AFC LEAGUE ELITE⁽ˢᵉʳᵛᵉʳ ¹⁾,internal_9195ed64
 M LIVE EVENT,internal_2bc3a2f8
 SPORTSTARS,internal_094893bb
 SPORTSTARS 2,internal_98d02ff4
-SOCCER CHANNEL,internal_31ad239f
 TV2 SPORT,internal_2aaef1bf
 ASTRO BADMINTONᴴᴰ,internal_9253ed8b
 KBSN SPORTS,internal_eb78c120
 MOJI SPORT ᴴᴰ,internal_e54257b2
 EVENT LIVOLI,internal_76d2f275
 1-LIVE EVENT,internal_613e4fc3
-PREMIER 1,internal_4ac12d4a
 STAR SPORT 1,internal_68a665fb
 FUBO SPORTS,internal_ae3dcb4f
 DIGI SPORT 4,internal_e4504f0b
 NOVA SPORT 4,internal_935f4a6f
-BEIN SPORTS 1 LALIGA,internal_46a89644
-BEIN SPORTS 2 SERIE A,internal_dd4d02e0
-BEIN SPORTS 3 BUNDES LIGA,internal_08ca11a3
 ZIGGO SPORT 2,internal_e353c2ce
 SPORTS 2,internal_6de8b95b
 ABU DHABI SPORTS,internal_a9ff3408
 SPOT TV,internal_f15d076d
 SPOT TV 2,internal_2c479798
 PRIMA SPORT 5,internal_a9929ea8
-TNT SPORTS 1,internal_519e5f38
-TNT SPORTS 2,internal_1b7fce1c
 SONY SPORTS 2,internal_3526a605
 SONY SPORTS 3,internal_c33d1554
 CANAL+ SPORT,internal_0566820f
@@ -455,11 +337,6 @@ UNITED FIGHT ALIANCE,internal_594b381a
 UNIFI SPORTS,internal_257f537d
 UFC,internal_e9e81c0c
 WWW LIVE,internal_cb64876f
-SKY SPORTS+,internal_d33bfec3
-SKY SPORTS EPL,internal_27b90b89
-SKY SPORTS MOTO GP,internal_fc80bed8
-SKY SPORTS F1,internal_3812e580
-SKY SPORTS MAIN,internal_6a277ae1
 -ᴷᴼᴾᴵ ˢᵁˢᵁ-,internal_ee532de8
 -ᴬᵀᵀᴱᴺᵀᴵᴼᴺ-,internal_dbe85ad7
 1-LIVE EVENT WWE,internal_113ac55f
@@ -482,37 +359,13 @@ ASTRO BADMINTONᴴᴰ,internal_9253ed8b
 ASTRO ARENA ᴴᴰ,internal_68fe4c14
 ASTRO ARENA 2 ᴴᴰ,internal_42396ee3
 ASTRO SPORTS PLUS ᴴᴰ,internal_8a191388
-ASTRO FOOTBALL ᴴᴰ,internal_07c683f4
 ASTRO GRANDSTAND ᴴᴰ,internal_783e260f
-ASTRO PREMIER LEAGUE 1 ᴴᴰ,internal_4ff7e6e5
-ASTRO PREMIER LEAGUE 2 ᴴᴰ,internal_75c7fbeb
 ASTRO CRICKET ᴴᴰ,internal_0fd3e4bd
 SONY TEN 1 ᴴᴰ,internal_5dee1818
 SONY TEN 2 ᴴᴰ,internal_ac525183
 SONY TEN 3 ᴴᴰ,internal_c54306d8
 SONY TEN 4 ᴴᴰ,internal_f16bd73f
 SONY TEN 5 ᴴᴰ,internal_db00c004
-BEIN SPORTS 1,internal_5f6d3954
-BEIN SPORTS 2,internal_dadffb44
-BEIN SPORTS 3,internal_fd279d75
-BEIN SPORTS 4,internal_e85b5a9b
-BEIN SPORTS 5,internal_80b664bd
-BEIN SPORTS 6,internal_6c424127
-BEIN SPORTS 7,internal_a70556ff
-BEIN SPORTS 8,internal_113e4f8d
-BEIN SPORTS EXTRA,internal_5924ec2d
-BEIN SPORTS EXTRA n,internal_05540c31
-SPOTV,internal_240b4c58
-SPOTV 2,internal_8baad6f5
-SPOTV PRIME,internal_04db3e29
-SPOTV PRIME 2,internal_cd50a47b
-SPOTV PRIME PLUS,internal_9279996a
-SKY SPORTS PREMIERE LEAGUE,internal_7507dfa8
-SKY SPORTS BUNDESLIGA ᴴᴰ,internal_89892736
-SKY SPORTS FOOTBALL,internal_b120b6bf
-SKY SPORT ARENA ᴴᴰ,internal_e4b285d0
-SKY SPORT F1 ᴴᴰ,internal_82bf04bb
-SKY SPORTS GOLF ᴴᴰ,internal_e19cad25
 DAZN 1-DT1,internal_50426b4d
 DAZN 1-DT2,internal_a036f499
 DAZN 1-DT2,internal_a036f499
@@ -520,15 +373,10 @@ DAZN 2,internal_c3c34263
 DAZN 3,internal_acef2103
 DAZN 4,internal_8ef719b3
 DAZN 5,internal_48b8cf1e
-DAZN LALIGA,internal_4c768f50
 DAZN FAST,internal_a441e73d
 DAZN RISE,internal_f05de745
 DAZN COMBAT,internal_538d0ac9
 DAZN F1,internal_2fcc226b
-TNT Sports 1,internal_da8a96a3
-TNT Sports 2,internal_967d1da3
-TNT Sports 3,internal_166c4935
-TNT Sports 4,internal_23f2cf01
 ME WATCH SPORTS,internal_884eb4b3
 PRIMA SPORT 1,internal_0562dcbb
 PRIMA SPORT 2,internal_64a3ea4a
@@ -569,8 +417,6 @@ ESPN DEPORTES,internal_6ad10b9d
 ESPN U,internal_5a04e5bb
 Abu Dhabi Sports TV 1,internal_270d5f04
 Abu Dhabi Sports TV 2,internal_7d823f9c
-PREMIER SPORTS 1,internal_7beb503f
-PREMIER SPORTS 2,internal_0d105c1f
 Bahrain Sports 1,internal_3bb6df83
 Bahrain Sports 2,internal_fe0e76e6
 DUBAI SPORTS 1,internal_62d8d9fa
@@ -636,23 +482,12 @@ ARENA PREMIUM 2,internal_1d5e3e44
 FUBO SPORTS 1,internal_0a89ad62
 FUBO SPORTS 2,internal_2dc9554d
 TVRI SPORT,internal_8603b68c
-SpoTV,internal_0797a576
-SpoTV 2,internal_05379932
-SpoTV 1 PH,internal_05baf849
-SpoTV 2 PH,internal_fa0462a9
 Sportstars 1,internal_5e18fce8
 Sportstars 1,internal_5e18fce8
 Sportstars 2,internal_05504a6d
 Sportstars 2 HD,internal_e66a25a7
 Sportstars 3,internal_64afba52
 Sportstars 4,internal_bba88515
-Soccer Channel,internal_72d56f64
-Soccer Channel V+,internal_02aa77bd
-beIN Sports ID 1,internal_73c60d05
-beIN Sports ID 2,internal_f8107a34
-beIN Sports ID 3,internal_03354a2d
-beIN Sports ID 4,internal_346ddc9a
-beIN Sports ID 5,internal_d664477c
 Eurosport Asia,internal_3e1d66e3
 FIGHT SPORTS HD,internal_c735781b
 MOTOR VISION+,internal_098ea904
@@ -661,15 +496,7 @@ W-SPORT,internal_0b907a68
 Sukan TV,internal_1914915e
 OKEY TV,internal_0d565c41
 SONY SPORTS TEN 1 HD,internal_43dce34d
-BeIN Sports AU 1,internal_b97752b0
-BeIN Sports AU 2,internal_49e540b3
-BeIN Sports AU 3,internal_a95b8e41
-Peacock Premier League,internal_74a30334
 USA,internal_f75d91cd
-TNT SPORTS 1,internal_519e5f38
-TNT SPORTS 2,internal_1b7fce1c
-TNT SPORTS 3,internal_7d53d307
-TNT SPORTS 4,internal_4f81c4ba
 SportTV 1,internal_8df60812
 SportTV 2,internal_683282eb
 SportTV 3,internal_939612b9
@@ -701,16 +528,6 @@ Motorvision TV,internal_cede82fe
 Red Bull TV,internal_b8b3000e
 MUTV,internal_50e67d46
 Real Madrid TV,internal_866d51e7
-SKY SPORTS LALIGA,internal_ebad0a17
-SKY SPORTS BUNDESLIGA,internal_b2e072cb
-Sky Sport F1,internal_83e86a2c
-Sky Sport Racing,internal_88be6543
-SkySportMotoGP,internal_68780f69
-SkySportF1,internal_fb49753e
-SkySportsPremiereLeague,internal_3ad7bcfe
-SkySportsLaliga,internal_6b0a2c3c
-SkySportsFootball,internal_217c8da9
-SkySportBundesliga,internal_57b82033
 ONE SPORTS HD,internal_5c54bd7f
 ONE SPORTS+,internal_1d323264
 UNIFI SPORTS,internal_257f537d
@@ -725,12 +542,6 @@ DAZN 1,internal_cf9f9b2d
 DAZN 2,internal_c3c34263
 DAZN 3,internal_acef2103
 DAZN 4,internal_8ef719b3
-",CHAMPIONS TV 1",internal_899d16ac
-",CHAMPIONS TV 2",internal_26c570f9
-",CHAMPIONS TV 2 (BACKUP)",internal_98627dfd
-",CHAMPIONS TV 3",internal_8e959a4f
-",CHAMPIONS TV 5",internal_58264527
-",CHAMPIONS TV 6",internal_64b9e345
 ",FIGHT SPORTS",internal_c397bfa1
 ",EUROSPORT",internal_14a1bf8a
 ",NBA TV",internal_b495499b
@@ -740,7 +551,6 @@ DAZN 4,internal_8ef719b3
 ",MOTORVISION+",internal_95849def
 ",WE DO SPORT",internal_58dde32f
 ",GOLF+",internal_76830a38
-",FOOTBALL TV",internal_3f742c31
 ",SPORTS TV",internal_2c2d7560
 ",XTREAM SPORTS",internal_899df90e
 ",SPEED TV",internal_79bfda0b
