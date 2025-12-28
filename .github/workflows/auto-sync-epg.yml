@@ -1,15 +1,18 @@
-name: Auto Sync IPTV EPG
+name: Auto Sync IPTV EPG + Matching + Report
 
 on:
+  # Jalan otomatis tiap 30 menit
   schedule:
     - cron: "*/30 * * * *"
 
+  # Jalan kalau file penting berubah
   push:
     paths:
       - "sync_epg_block.py"
       - "live_epg_sports.m3u"
       - ".github/workflows/**"
 
+  # Bisa dijalankan manual
   workflow_dispatch:
 
 jobs:
@@ -17,28 +20,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      # 1️⃣ Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      # 2️⃣ Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # 3️⃣ Install dependency
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install gdown
 
-      - name: Run sync
-        run: python sync_epg_block.py
+      # 4️⃣ Run sync script
+      - name: Run EPG sync + matching
+        run: |
+          python sync_epg_block.py
 
+      # 5️⃣ Commit playlist + reports
       - name: Commit result
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add playlist_final_epg.m3u
+
+          git add \
+            playlist_final_epg.m3u \
+            report_match.csv \
+            report_alias.csv \
+            report_unmatch.csv
+
           if git diff --cached --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
           else
-            git commit -m "Auto sync EPG (Google Drive, block utuh)"
+            git commit -m "Auto sync EPG + matching + report"
             git push
           fi
